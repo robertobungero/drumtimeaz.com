@@ -1,2 +1,2 @@
 # drumtimeaz.com
-Repo from my drumtime website
+Repo for my drumtime website
