@@ -1,0 +1,57 @@
+body {
+  background: #330066;
+  color: #330066;;
+  font-family: "Special Elite";
+}
+
+.navbar {
+  /* border-bottom: #000 1px solid; */
+  font-family: "Special Elite";
+  background: #330066;
+  color:white;
+  font
+  opacity: 0.9;
+  min-height: 80px;
+}
+
+.navbar-brand {
+  font-size: xx-large;
+}
+
+.nav-item {
+  font-size: x-large;
+}
+
+ccustom-toggler .navbar-toggler-icon {
+  background-image: url(“data:image/svg+xml;charset=utf8,%3Csvg viewBox=’0 0 32 32' xmlns=’http://www.w3.org/2000/svg'%3E%3Cpath stroke=’rgba(0,0,0,0)’;
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section {
+  color: #000000;
+  background: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#about-section {
+  color: #fff;
+  background: #330066;
+  padding: 5 px;
+  border-radius: 5px;
+}
+#contact-section {
+  color: #000000;
+  background: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+}
+#main-footer {
+  color: #fff;
+  background: #330066;
+  padding: 5 px;
+  border-radius: 5px;
+}
