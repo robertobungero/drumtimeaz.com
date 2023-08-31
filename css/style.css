@@ -1,16 +1,16 @@
+/* Moved all this to #home block below */
 body {
   background: #330066;
-  color: #330066;;
-  font-family: "Special Elite";
+  color: #330066;
+  font-family: 'Special Elite';
 }
 
 .navbar {
   /* border-bottom: #000 1px solid; */
-  font-family: "Special Elite";
+  font-family: 'Special Elite';
   background: #330066;
-  color:white;
-  font
-  opacity: 0.9;
+  color: white;
+  font opacity: 0.9;
   min-height: 80px;
 }
 
@@ -22,8 +22,37 @@ body {
   font-size: x-large;
 }
 
+.nav-item a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.social-media-icons a {
+  color: white;
+  font-size: 2rem
+}
+
+.single-col {
+  max-width: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
 ccustom-toggler .navbar-toggler-icon {
   background-image: url(“data:image/svg+xml;charset=utf8,%3Csvg viewBox=’0 0 32 32' xmlns=’http://www.w3.org/2000/svg'%3E%3Cpath stroke=’rgba(0,0,0,0)’;
+}
+
+img {
+  width: 100%;
+  /* or max-width: 100%; */
+  height: auto;
+}
+
+#home {
+  font-family: 'Special Elite';
+  background: #330066;
+  color: #330066;
 }
 
 #home-section .home-inner {
@@ -35,6 +64,7 @@ ccustom-toggler .navbar-toggler-icon {
   background: #ffffff;
   padding: 5px;
   border-radius: 5px;
+  font-size: 130%;
 }
 
 #about-section {
@@ -42,16 +72,60 @@ ccustom-toggler .navbar-toggler-icon {
   background: #330066;
   padding: 5 px;
   border-radius: 5px;
+  font-size: 130%;
 }
+
+
+#samples-section {
+  color: #fff;
+  background: #330066;
+  padding: 5 px;
+  border-radius: 5px;
+  font-size: 130%;
+}
+
 #contact-section {
   color: #000000;
   background: #ffffff;
   padding: 5px;
   border-radius: 5px;
+  font-size: 130%;
 }
+
 #main-footer {
   color: #fff;
   background: #330066;
   padding: 5 px;
   border-radius: 5px;
+}
+
+.fa-brands a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}*/
+
+a:hover {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #330066;
+  background-color: transparent;
+  text-decoration: underline;
 }
